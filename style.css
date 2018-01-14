@@ -1,7 +1,5 @@
 div {
   position: relative;
-  height: 6.25%;
-  width: 6.25%;
   float: left;
 }
 #container {
@@ -12,11 +10,13 @@ div {
   left: 50%;
   margin-top: -250px;
   margin-left: -250px;
+  border: solid black 2px;
 }
 .colored {
   background-color: black;
 }
-#gridSquare:hover {
-  transition: 0;
-  background-color: black;
+button {
+  position: absolute;
+  left: 50%;
+  margin-left: -34px;
 }
